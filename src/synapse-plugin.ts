@@ -56,7 +56,7 @@ function prepareTransactionData(route: any) {
     data: route.callData.data,
     to: route.callData.to,
     value: BigInt(route.callData.value.hex),
-    gasLimit: "300000", // Default gas limit, can be adjusted based on the chain
+    gasLimit: "250000", // Default gas limit, can be adjusted based on the chain
   };
 }
 
